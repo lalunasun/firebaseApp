@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import{ AngularFireModule} from '@angular/fire/compat';
 import { environment } from 'src/environments/environment';
+import { LoginComponent } from './component/login/login.component';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [	
+    AppComponent,
+      LoginComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
